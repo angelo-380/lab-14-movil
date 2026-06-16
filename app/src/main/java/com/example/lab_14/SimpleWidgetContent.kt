@@ -43,7 +43,10 @@ class SimpleWidgetContent : GlanceAppWidget() {
                     text = "Página Principal",
                     onClick = actionStartActivity<MainActivity>()
                 )
-
+                Button(
+                    text = "Pez",
+                    onClick = actionStartActivity<SecondaryActivity>()
+                )
             }
         }
     }
